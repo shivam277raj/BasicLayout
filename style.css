@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    width: 99%;
+    height: 10vh;
+    border: 1px solid red;
+}
+.container
+{
+    display: flex;
+    width: 99%;
+    height: 80vh;
+    border: 1px solid black;
+
+}
+.box1
+{
+    width: 25%;
+    height: 80vh;
+    border: 1px solid blue;
+}
+.heading
+{
+    width:60%;
+    height: 10vh;
+    border: 1px solid yellow;
+    margin: 10px 100px;
+
+}
+.box
+{
+    display: flex;
+    margin-top: 80px;
+    position: relative;
+}
+.boxA
+{
+    width:45%;
+    height: 60vh;
+    border: 1px solid grey;
+}
+.boxB
+{
+    width:45%;
+    height: 60vh;
+    border: 1px solid grey;
+    right: 0px;
+    position: absolute;
+}
+footer
+{
+    width: 99%;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid red;
+}
